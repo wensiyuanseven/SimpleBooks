@@ -3,9 +3,9 @@
 # 前言
 ### 部分截图
 #### 首页
-<img src="https://github.com/wensiyuanseven/SimpleBooks/blob/master/src/assets/img/md1.png" width="800" height="400"/>
+<img src="https://github.com/wensiyuanseven/SimpleBooks/blob/master/src/assets/img/md1.png" />
 <hr>
-<img src="https://github.com/wensiyuanseven/SimpleBooks/blob/master/src/assets/img/md2.png" width="800" height="400"/>
+<img src="https://github.com/wensiyuanseven/SimpleBooks/blob/master/src/assets/img/md2.png"/>
 学习了vue之后 因为对简书官网的喜爱 所以就写了个简书官网 因为是业余时间来做的 所以周期有点长 从项目布局到成大概用了一个月 目前项目已经完成 正在进行一些性能的优化
 增加详细的注释
 ## 技术栈
@@ -59,7 +59,29 @@ node server.js
 
 ## 项目截图
 #### 首页
-<img src="https://github.com/wensiyuanseven/SimpleBooks/blob/master/src/assets/img/md3.png" width="800" height="400"/>
-#### 下载页
-<img src="https://github.com/wensiyuanseven/SimpleBooks/blob/master/src/assets/img/md4.png" width="800" height="400"/>
+<img src="https://github.com/wensiyuanseven/SimpleBooks/blob/master/src/assets/img/md3.png" />
+
+#### 下载页面
+<img src="https://github.com/wensiyuanseven/SimpleBooks/blob/master/src/assets/img/md4.png" />
+<hr>
+<img src="https://github.com/wensiyuanseven/SimpleBooks/blob/master/src/assets/img/md5.png" />
+
+#### 登录页面
+<img src="https://github.com/wensiyuanseven/SimpleBooks/blob/master/src/assets/img/md6.png" />
+
+#### 注册页面
+<img src="https://github.com/wensiyuanseven/SimpleBooks/blob/master/src/assets/img/md7.png" />
+
+#### 文章详情页面
+<img src="https://github.com/wensiyuanseven/SimpleBooks/blob/master/src/assets/img/md8.png" />
+<hr>
+<img src="https://github.com/wensiyuanseven/SimpleBooks/blob/master/src/assets/img/md9.png" />
+
+
+#### 文章下载页面
+
+<img src="https://github.com/wensiyuanseven/SimpleBooks/blob/master/src/assets/img/md10.png" />
+
+
+
 
