@@ -76,10 +76,7 @@ node server.js
 <img src="https://github.com/wensiyuanseven/SimpleBooks/blob/master/src/assets/img/md8.png" />
 <hr>
 <img src="https://github.com/wensiyuanseven/SimpleBooks/blob/master/src/assets/img/md9.png" />
-
-
-#### 文章下载页面
-
+<hr>
 <img src="https://github.com/wensiyuanseven/SimpleBooks/blob/master/src/assets/img/md10.png" />
 
 
