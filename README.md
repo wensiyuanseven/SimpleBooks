@@ -1,6 +1,11 @@
 # SimpleBooks
 基于vue写的一个项目
 # 前言
+### 部分截图
+#### 首页
+<img src="https://github.com/wensiyuanseven/SimpleBooks/blob/master/src/assets/img/md1.png" width="800" height="400"/>
+<hr>
+<img src="https://github.com/wensiyuanseven/SimpleBooks/blob/master/src/assets/img/md2.png" width="800" height="400"/>
 学习了vue之后 因为对简书官网的喜爱 所以就写了个简书官网 因为是业余时间来做的 所以周期有点长 从项目布局到成大概用了一个月 目前项目已经完成 正在进行一些性能的优化
 增加详细的注释
 ## 技术栈
