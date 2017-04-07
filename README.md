@@ -3,7 +3,7 @@
 # 前言
 ### 部分截图
 #### 首页
-<img src="https://github.com/wensiyuanseven/SimpleBooks/blob/master/src/assets/img/md1.png" width="800" height="400"/>
+<img src="https://github.com/wensiyuanseven/SimpleBooks/blob/master/src/assets/img/md1.png" width="600" height="400"/>
 <hr>
 <img src="https://github.com/wensiyuanseven/SimpleBooks/blob/master/src/assets/img/md2.png" width="800" height="400"/>
 学习了vue之后 因为对简书官网的喜爱 所以就写了个简书官网 因为是业余时间来做的 所以周期有点长 从项目布局到成大概用了一个月 目前项目已经完成 正在进行一些性能的优化
@@ -57,4 +57,8 @@ node server.js
 ##  总结
 项目写到现在，从 登录注册到、首页、下载页每个页面的详情页 一个流程走完之后、不但对vue的理解更深一层，而且对以后掌控大型项目的时候也有非常多的帮助，做一个实际的项目才能对自己有很大的提升。
 
-##项目截图
+## 项目截图
+#### 下载页
+<img src="https://github.com/wensiyuanseven/SimpleBooks/blob/master/src/assets/img/md3.png" width="800" height="400"/>
+<hr>
+<img src="https://github.com/wensiyuanseven/SimpleBooks/blob/master/src/assets/img/md4.png" width="800" height="400"/>
