@@ -56,6 +56,36 @@ node server.js
 - [x] 组件的复用
 ##  总结
 项目写到现在，从 登录注册到、首页、下载页每个页面的详情页 一个流程走完之后、不但对vue的理解更深一层，而且对以后掌控大型项目的时候也有非常多的帮助，做一个实际的项目才能对自己有很大的提升。
+# 项目布局
+```
+|-- build                            // webpack配置文件
+|-- config                           // 项目打包路径
+|-- dist                          	 // 上线项目文件，放在服务器即可正常访问
+|-- src                              // 源码目录
+|   |-- store                        // vuex的状态管理
+|       |-- modules                  // store模块
+|       |-- action.js                // 配置actions
+|       |-- getters.js               // 配置getters
+|       |-- index.js                 // 引用vuex，创建store
+|       |-- types.js                // 定义常量muations名
+|       |-- mutations.js             // 配置mutations
+|
+|
+|   |-- App.vue                      // 页面入口文件
+|
+|   |-- main.js                      // 程序入口文件，加载各种公共组件
+|
+|-- .babelrc                         // ES6语法编译配置
+|-- .editorconfig                    // 代码编写规格
+|-- .gitignore                       // 忽略的文件
+|-- favicon.ico                      // 页面左上角小图标
+|-- index.html                       // 入口html文件
+|--webpack.config.js                 //webpack的配置文件
+|-- package.json                     // 项目及工具的依赖配置文件
+|-- README.md                        // 说明
+```
+
+
 
 ## 项目截图
 #### 首页
