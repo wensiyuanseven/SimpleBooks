@@ -1,0 +1,42 @@
+
+/* actGotop */
+
+.actGotop {
+	position: fixed;
+	/*_position 针对ie6*/
+	/*_position: absolute;*/
+	bottom: -100px;
+	right: -70px;
+	width: 150px;
+	height: 195px;
+	display: none;
+	/*z-index: 999;*/
+}
+
+.actGotop a,
+.actGotop a:link {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	background: white;
+	outline: none;
+	border: 1px solid rgba(0,0,0,.1);
+	border-radius: 3px;
+		position: absolute;
+		z-index: 999;
+		text-align: center;
+		line-height: 50px;
+		text-decoration: none;
+		color: #696969;
+		font-family: "微软雅黑";
+		font-size: 22px;
+}
+.actGotop a:after{
+	content: "∧";
+}
+
+.actGotop a:hover {
+	/*background: brown;*/
+	outline: none;
+	/*	z-index: 999;*/
+}

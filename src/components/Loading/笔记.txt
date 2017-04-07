@@ -1,0 +1,8 @@
+目录
+		|--index.js入口文件
+		|--loading.vue 组件
+		
+
+注意：min.js中   导出的是文件夹
+	import loading from './components/Loading'
+	Vue.use(loading);

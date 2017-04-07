@@ -1,0 +1,73 @@
+项目准备工作
+----------------------
+1. npm install vue-cli -g	    安装 vue命令环境
+	验证安装ok?
+		vue --version
+2. 生成项目模板
+	vue init <模板名> 本地文件夹名称
+3. 进入到生成目录里面
+	cd xxx
+	npm install
+4. 运行 npm run dev
+------------------------
+main.js中全局引入重置样式
+安装css-loader css-loader       cnpm install css-loader  style-loader --save-dev
+webpack.config.js配置loader
+	{
+		text:/\.css$/,
+		loader:'style-loader!css-loader'
+	}
+为什么不在index.js中引入重置样式
+	因为main.js是入口文件 最后需要打包  而在index.js中引入 最后不能打包重置样式
+------------------------------------------
+用less写css 需要下载两个依赖项
+	  less   less-loader
+	  cnpm install less less-loader --save-dev
+	  webpack.config.js配置loader
+	   {
+      	test:/\.less$/,
+      	loader:'less-loader'
+      }
+--------------------------------------
+按需引入element-ui组件
+下载				npm i element-ui -D
+		cnpm install babel-plugin-component -D
+		.babelrc文件里面新增一个配置
+	  "plugins": [["component", [
+	    {
+	      "libraryName": "element-ui",
+	      "styleLibraryName": "theme-default"
+	    }
+	  ]]]
+	  下载 file-loader
+	  cnpm install file-loader --save-dev
+	  配置
+      ,{
+        test: /\.(eot|svg|ttf|woff|woff2)$/,
+        loader: 'file-loader'
+      },
+      ------------------------------
+      编写路由 
+      下载
+       cnpm install vue-router --save
+--------------------------------------------------------------------
+怎样引入jquery
+cnpm install jquery --save
+
+ 1在build文件夹下的webpack.base.conf.js文件中添加：
+2var webpack = require("webpack")
+3// 增加一个plugins
+   plugins: [
+      new webpack.optimize.CommonsChunkPlugin('common.js'),
+      new webpack.ProvidePlugin({
+          jQuery: "jquery",
+          $: "jquery"
+      })
+
+   ],
+   4 在你需要的地方引入
+   import $ from 'jquery'
+   引入jquery插件
+import stackup from './../assets/js/stackUp.js'
+引入写jquery代码的文件
+import './../assets/js/fixed.js'
