@@ -7,7 +7,8 @@
 #### 首页
 <img src="https://github.com/wensiyuanseven/SimpleBooks/blob/master/src/assets/img/md1.png" />
 <hr>
-<img src="https://github.com/wensiyuanseven/SimpleBooks/blob/master/src/assets/img/md2.png"/>
+<img src="https://github.com/wensiyuanseven/SimpleBooks/blob/master/src/assets/img/md2.png"/> 
+
 ## 技术栈
 <ul >
   <li >vue2.0</li>
