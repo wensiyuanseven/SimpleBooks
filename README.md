@@ -21,7 +21,6 @@
   <li>ES6</li>
   <li>less</li>
   <li>mock数据</li>
-  <li>Elementui</li>
   <li>css3</li>
   <li>express框架搭建服务器</li>
 </ul>
