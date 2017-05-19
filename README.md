@@ -22,6 +22,8 @@
   <li>less</li>
   <li>css3</li>
   <li>express框架搭建服务器</li>
+  <li>mock数据</li>
+  <li>Elementui</li>
 </ul>
 
 ##  项目运行
